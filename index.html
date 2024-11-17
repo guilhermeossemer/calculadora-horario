@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Horário</title>
+</head>
+    <body>
+        <header>
+            <img src="logo-koch.png" alt="Logo-superkoch" class="logo">
+        </header>
+    
+        <main class="main-content">
+            <h2>Calculadora de Horário de Saída</h2>
+
+            <label for="entrada">Horário de Entrada:</label>
+            <input type="time" id="entrada" required>
+
+            <label for="saidaAlmoco">Saída para Almoço:</label>
+            <input type="time" id="saidaAlmoco" required>
+
+            <label for="voltaAlmoco">Volta do Almoço:</label>
+            <input type="time" id="voltaAlmoco" required>
+
+            <label for="horasTrabalho">Total de Horas de Trabalho (hh:mm):</label>
+            <input type="time" id="horasTrabalho" required>
+
+            <button class="btn" onclick="calcularSaida()">Calcular Horário de Saída</button>
+
+            <h3 id="resultado"></h3>
+        </main>
+        <script src="main.js"></script>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
