@@ -8,6 +8,7 @@
 
 /* Estilização geral do corpo */
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
